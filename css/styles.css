@@ -15,7 +15,7 @@
 }
 
 ul {
-  padding-inline-start: 0%;
+  padding-inline-start: 0;
 }
 
 .unstyled-list {
@@ -44,13 +44,14 @@ ul {
 }
 
 .header-logo {
-  font: "Raleway";
+  font: "Raleway", sans-serif;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  width: 145px;
-  padding: 25px 0;
+  padding: 24px 025px;
+  height: 31px;
+  margin: 0 auto;
 }
 
 .logo-highlight {
@@ -59,12 +60,14 @@ ul {
 
 .main-nav-item {
   display: inline-block;
-  margin: 32px 25px;
+  padding: 32px 25px;
+  margin: 0 auto;
 }
 
 .main-nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 
 .main-nav-link:hover,
@@ -80,13 +83,13 @@ ul {
 .contact-list-item {
   display: inline-block;
   padding: 32px 20px;
+  margin: 0 auto;
 }
 
 .contact-nav-link {
   color: var(--text-color);
   font-weight: 500;
   letter-spacing: 0.02em;
-  border: 2px solid red;
 }
 
 .contact-nav-link:hover,
@@ -96,7 +99,7 @@ ul {
 }
 
 .header-icon {
-  margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-icon:hover {
@@ -106,19 +109,20 @@ ul {
 /* Hero section styling */
 .hero-section {
   background-image: url(/images/background-image.jpg);
-  background-image: linear-gradient(#2f303a66 40% #c4c4c4 80%);
-
-  color: #ffffff;
-  text-align: center;
+  background: linear-gradient(to right #2f303a66 40% #000000);
   width: 1600px;
-  margin: 0 auto;
 }
 
 .hero-title {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding-top: 200px;
+  padding: 200px 0 30px;
+  margin: 0 auto;
 }
 
 .main-sec-button {
@@ -129,7 +133,9 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  padding: 10px 19px 10px 20px;
   margin-bottom: 210px;
+  align-self: center;
 }
 
 .main-sec-button:hover,
@@ -156,7 +162,6 @@ ul {
   width: 270px;
   font-weight: 700;
   line-height: 1.17;
-  margin: 0 auto;
   margin-bottom: 10px;
 }
 
@@ -325,26 +330,13 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  border: 2px solid green;
 }
 
 .icon {
   display: flex;
-  fill: var(--link-color);
-  width: 106px;
-  height: 60px;
-}
+  color: var(--link-color);
+  fill: currentColor;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-.customers-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 170px;
   height: 92px;
   margin-bottom: 94px;
@@ -355,7 +347,13 @@ ul {
   border: 1px solid #afb1b8;
 }
 
-.customers-list:hover {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.icon:hover {
   fill: var(--brand-color);
   border-color: var(--brand-color);
 }
