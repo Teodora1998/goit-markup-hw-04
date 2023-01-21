@@ -161,6 +161,8 @@ ul {
 .page-list-item {
   display: block;
   justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   width: 270px;
 }
 
