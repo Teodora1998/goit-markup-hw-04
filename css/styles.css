@@ -224,6 +224,9 @@ ul {
 
 /* team section styling */
 
+.team-bg-color {
+  background-color: var(--background-color);
+}
 .team-sec {
   margin: 0 auto;
 }
@@ -232,15 +235,6 @@ ul {
   padding-bottom: 50px;
   padding-top: 94px;
   margin: 0 auto;
-}
-
-.outer-container {
-  width: 1600px;
-  background-color: var(--background-color);
-}
-
-.inner-container {
-  width: 1200px;
 }
 
 .team-list {
