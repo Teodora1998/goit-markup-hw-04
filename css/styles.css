@@ -109,7 +109,7 @@ ul {
 
 /* Hero section styling */
 .hero-section {
-  background-image: url(images/background-image.jpg);
+  background-image: url(../images/background-image.jpg);
   background-color: #2f303a66;
   background-blend-mode: darken;
   text-align: center;
