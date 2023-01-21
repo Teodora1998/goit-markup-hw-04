@@ -219,7 +219,7 @@ ul {
   flex-grow: 0;
   flex-shrink: 1;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 /* team section styling */
@@ -230,6 +230,7 @@ ul {
 }
 .team-sec {
   margin: 0 auto;
+  width: 1200px;
 }
 
 .section-title {
@@ -245,10 +246,10 @@ ul {
 }
 
 .team-list-item {
+  text-align: center;
   flex-basis: 270px;
   flex-grow: 0;
   flex-shrink: 1;
-  text-align: center;
 }
 
 .employee-name {
@@ -272,10 +273,10 @@ ul {
 }
 
 .social-link {
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
   width: 44px;
   height: 44px;
   color: var(--link-color);
@@ -327,16 +328,17 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 .customers-list {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
-  padding: 0px;
-  margin: 0px auto 94px;
+  padding-bottom: 94px;
+  margin: 0px auto;
 }
 
 *,
