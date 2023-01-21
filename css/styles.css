@@ -226,6 +226,7 @@ ul {
 
 .team-bg-color {
   background-color: var(--background-color);
+  width: 1600px;
 }
 .team-sec {
   margin: 0 auto;
@@ -363,6 +364,7 @@ ul {
 /* footer */
 .bg-color {
   background-color: #2f303a;
+  max-width: 1600px;
 }
 
 .footer-sec {
