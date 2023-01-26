@@ -167,10 +167,13 @@ ul {
 }
 
 .page-sec-subtitle {
-  display: block;
-  width: 270px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 1;
   font-weight: 700;
   line-height: 1.17;
+  
   margin-top: 30px;
   margin-bottom: 10px;
 }
